@@ -1,3 +1,5 @@
+import { useState } from 'react';
+
 import './App.css';
 import Nav from './components/nav';
 import Header from './components/header';
@@ -11,6 +13,7 @@ import Footer from './components/footer';
 
 
 const App = () => {
+
 
   return (
     <>

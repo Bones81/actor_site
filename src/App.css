@@ -103,8 +103,22 @@ a {
 }
 
 #about {
-  padding: 20px;
   background: linear-gradient(aliceblue, rgb(178, 216, 223)); 
+}
+
+#about h1 {
+  text-align: center;
+}
+
+.about-closed {
+  max-height: 2.5em;
+  overflow: hidden;
+  transition: 0.4s all ease-in-out; 
+}
+
+.about-heading svg {
+  margin-top: 0.25em;
+  cursor: pointer;
 }
 
 .about-grid {
@@ -210,9 +224,31 @@ img {
   background: linear-gradient(195deg, ivory, pink);
 }
 
+.press-container {
+  margin: 1em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+  gap: 1em;
+}
+
 .press-item {
   font-family: 'Rubik', 'Arial', sans-serif;
   padding: 5px;
+  flex-basis: 40%;
+  background-color:rgba(178, 216, 223, 0.4);
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px black;
+}
+
+.press-item h2 {
+  border-bottom: 5px double black;
+}
+
+q {
+  font-size: 1.5em;
 }
 
 #work {
@@ -242,11 +278,26 @@ thead {
 
 .footer {
   padding: 0px;
+  font-size: 1.5em;
   display: grid;
   justify-content: space-between;
+  gap: 1em;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
   background: linear-gradient(135deg, slateblue, skyblue);
+}
+
+.dev-credit {
+  font-style: italic;
+  border: 3px dotted rgb(179, 192, 206);
+  padding: 0.5em;
+  margin: 1em;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.dev-credit svg {
+  font-size: 1em;
 }
 
 .copyright-text {
