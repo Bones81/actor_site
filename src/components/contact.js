@@ -2,8 +2,8 @@ const Contact = () => {
     return (
         <>
             <section id="contact">
-                <h2 class="section-title">You Talkin' To Me?!</h2>
-                <h4 class="contact-blurb">Leave a message for Nathan using the space below.</h4>
+                <h2 className="section-title">You Talkin' To Me?!</h2>
+                <h4 className="contact-blurb">Leave a message for Nathan using the space below.</h4>
                 <form action="submit">
                     <label for="email-text">Message:</label><br/>
                     <textarea name="email-text" id="email-textbox" cols="50" rows="15" placeholder="Hello Nathan,
@@ -21,7 +21,7 @@ const Contact = () => {
                     <input type="email" name="user-email" id="email-entry-box" placeholder="username@example.com" />
                 </form>
                 <br/>
-                <button class="submit-btn">Submit</button>
+                <button className="submit-btn">Submit</button>
                 <br/><br/>
             </section>
         </>
