@@ -91,6 +91,7 @@ nav {
 
 .nav-item {
   font-variant: small-caps;
+  transition: font-size 250ms ease-in-out;
   -webkit-transition: font-size 250ms ease-in-out;
   -moz-transition: font-size 250ms ease-in-out;
   -o-transition: font-size 250ms ease-in-out;
@@ -303,7 +304,7 @@ thead {
 }
 
 .copyright-text {
-
+  text-align: center;
 }
 
 .submit-btn {
