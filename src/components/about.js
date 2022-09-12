@@ -9,7 +9,7 @@ const About = () => {
     return (
         <>
             <section id="about" className="about-closed" > 
-                <div class="about-heading">
+                <div className="about-heading">
                     <h1>About Nathan <IoIosArrowDropdownCircle onClick={toggleAbout}/></h1>
                 </div>
                 <p className="about-text">Nathan L. Freeman has enjoyed a professional performing career that has spanned nearly 30 years. In that time, he has performed in Alice Tully Hall at Lincoln Center, Notre Dame Cathedral, and all over the United States in off-Broadway, regional, and touring theatre productions. Most recently, he has sung tenor for several years at Hong Kong Disneyland during the Christmas season as a member of the Disneyland Main Street Carolers.</p>
