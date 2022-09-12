@@ -1,5 +1,3 @@
-import { useState } from "react"
-
 import { IoIosArrowDropdownCircle } from 'react-icons/io'
 
 const About = () => {
