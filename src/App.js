@@ -18,7 +18,7 @@ const App = () => {
       <Nav />
       <Header />
       <About />
-      {/* <Media /> */}
+      <Media />
       <Resume />
       <Press />
       <Links />
