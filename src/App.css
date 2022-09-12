@@ -271,6 +271,11 @@ table * {
   padding: 5px;
 }
 
+th {
+  text-decoration-line: underline;
+  text-align: left;
+}
+
 #work h3 {
   text-transform: uppercase;
 }

@@ -7,10 +7,10 @@ const Resume = () => {
                 <table className="live-performance-resume">
                     <thead>
                         <tr>
-                            <td>Project</td>
-                            <td>Role</td>
-                            <td>Producer/Theater</td>
-                            <td>Director</td>
+                            <th>Project</th>
+                            <th>Role</th>
+                            <th>Producer/Theater</th>
+                            <th>Director</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -63,18 +63,17 @@ const Resume = () => {
                 <table className="tv-film-resume">
                     <thead>
                         <tr>
-                            <td>Project</td>
-                            <td>Role</td>
-                            <td>Producer</td>
+                            <th>Project</th>
+                            <th>Role</th>
+                            <th>Producer</th>
                         </tr>
                     </thead>
                     <tbody>
-                    <tr>
-                        <td>Good Morning America: Strahan & Sara</td>
-                        <td>Singing Abraham Lincoln</td>
-                        <td>ABC Studios</td>
-                    </tr>
-                
+                        <tr>
+                            <td>Good Morning America: Strahan & Sara</td>
+                            <td>Singing Abraham Lincoln</td>
+                            <td>ABC Studios</td>
+                        </tr>
                     </tbody>
                 </table>
             </section>
