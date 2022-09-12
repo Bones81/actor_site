@@ -15,6 +15,8 @@ const Contact = () => {
     const onSubmit = (e) => {
         e.preventDefault();
         console.log(toSend);
+        const blurbEl = document.querySelector('.contact-blurb')
+        blurbEl.innerHTML = 'Sending your message...'
         send(
             'service_fnaxhaa',
             'template_blteyif',
@@ -23,10 +25,31 @@ const Contact = () => {
         )
         .then((response) => {
             console.log('SUCCESS', response.status, response.text);
+
+            // Change the text to reflect the result of the submission
+            blurbEl.innerHTML = "Your message has been delivered!"
+            blurbEl.style.fontSize = '2em'
+
+            // Make the section take up more space after message delivered
+            const contactSection = document.querySelector('#contact')
+            contactSection.style.padding = '3em'
+
         })
         .catch((err) => {
             console.log('FAILED...', err);
+
+            // Change the text to reflect the result of the submission
+            blurbEl.innerHTML = "Sorry, the following error occurred:\n" + err
+            blurbEl.style.fontSize = '1.5em'
+
         })
+
+        // hide the form
+        const formEl = document.querySelector('form')
+        formEl.style.display = "none"
+        // Make the section take up more space after message delivered
+        const contactSection = document.querySelector('#contact')
+        contactSection.style.height = '50vh'
     }
 
     const handleChange = (e) => {
