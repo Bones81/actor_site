@@ -88,8 +88,8 @@ const Resume = () => {
                         </tr>
                         <tr>
                             <td><em>The Turkey Alibi</em></td>
-                            <td>Singing Abraham Lincoln</td>
-                            <td>ABC Studios</td>
+                            <td>Keith</td>
+                            <td>Ruthie Aslan & David Aslan</td>
                         </tr>
                     </tbody>
                 </table>

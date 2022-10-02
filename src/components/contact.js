@@ -64,10 +64,10 @@ const Contact = () => {
                 <form onSubmit={onSubmit}>
                     <label htmlFor="message">Message:</label><br/>
                     <textarea name="message" id="email-textbox" cols="50" rows="15" placeholder="Hello Nathan,
-                    My name is also Nathan, and I think your site is pretty neat. I like the colors. I am 10 years old. Who is your favorite web designer? I want to be an actor/singer turned web designer when I grow up, just like you. Do you like chocolate chips? Because I do. 
+                    My name is Kwahi, and I think your site is pretty neat. I like the colors. I am 10 years old. Who is your favorite web designer? I want to be an actor/singer and web designer when I grow up, just like you. Do you like chocolate chips? I do. 
                     
                     Your friend, 
-                    Also Nathan" value={toSend.message} onChange={handleChange} ></textarea>
+                    Kwahi T'Fannonate" value={toSend.message} onChange={handleChange} ></textarea>
                     <br/>
                     <br/>
                     <label htmlFor="from_name">Your name:</label>
