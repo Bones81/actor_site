@@ -371,13 +371,21 @@ form {
   padding: 0.5em;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 648px) {
   .nav-item {
     font-size: 1.15em
   }
 
   .title {
     font-size: 2em;
+  }
+
+  .subtitle {
+    font-size: 1.5em;
+  }
+
+  #union-list {
+    font-size: 1.25em;
   }
 
   .reel {
@@ -436,5 +444,10 @@ form {
 
   #about-grid-item {
     height: minmax(300px, 100%);
+  }
+
+  .about-text {
+    font-size: 1.25em;
+    max-width: 840px;
   }
 }
