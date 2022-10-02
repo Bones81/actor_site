@@ -15,6 +15,12 @@ const Resume = () => {
                     </thead>
                     <tbody>
                         <tr>
+                            <td>Hong Kong Disneyland Christmas 2022</td>
+                            <td>Principal Vocalist</td>
+                            <td>Hong Kong Disneyland</td>
+                            <td>Randy Wojcik</td>
+                        </tr>
+                        <tr>
                             <td>Hong Kong Disneyland Christmas 2020</td>
                             <td>Principal Vocalist</td>
                             <td>Hong Kong Disneyland</td>
@@ -45,13 +51,19 @@ const Resume = () => {
                             <td>Randy Wojcik</td>
                         </tr>
                         <tr>
-                            <td>The 39 Steps</td>
+                            <td><em>The 39 Steps</em></td>
                             <td>Richard Hannay</td>
                             <td>Alhambra Dinner Theatre</td>
                             <td>Tod Booth</td>
                         </tr>
                         <tr>
-                            <td>A Christmas Carol</td>
+                            <td><em>The 39 Steps</em></td>
+                            <td>Clown 1 & 2 (u/s)</td>
+                            <td>3rd National Tour</td>
+                            <td>Kevin Bigger</td>
+                        </tr>
+                        <tr>
+                            <td><em>A Christmas Carol</em></td>
                             <td>Young Scrooge, Ensemble</td>
                             <td>The Chain Theatre</td>
                             <td>Steve Wargo</td>
@@ -70,7 +82,12 @@ const Resume = () => {
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Good Morning America: Strahan & Sara</td>
+                            <td><em>Good Morning America: Strahan & Sara</em></td>
+                            <td>Singing Abraham Lincoln</td>
+                            <td>ABC Studios</td>
+                        </tr>
+                        <tr>
+                            <td><em>The Turkey Alibi</em></td>
                             <td>Singing Abraham Lincoln</td>
                             <td>ABC Studios</td>
                         </tr>

@@ -1,7 +1,7 @@
 const Links = () => {
     return (
         <>
-            <h1>This is the Links component</h1>
+            {/* <h1>This is the Links component</h1> */}
         </>
     )
 }
